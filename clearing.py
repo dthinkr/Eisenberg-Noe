@@ -7,7 +7,7 @@ class ClearingSystem:
     """Represents a clearing system using the Eisenburg-Noe algorithm."""
 
     def __init__(self, external_assets, liability_matrix):
-        """Initialize the clearing system with external assets and liabilities."""
+        """Initialize the clearing system with external assets and interbank liabilities."""
         self.external_assets = external_assets
         self.liability_matrix = liability_matrix
         self.num_banks = len(external_assets)
